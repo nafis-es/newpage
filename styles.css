@@ -13,8 +13,7 @@ html, body {
   width: 2048px;
   top: 50%;
   left: 50%;
-  margin-top: -1024px;
-  margin-left: -1024px;
+  transform: translate(-50%, -50%);
   z-index: -1;
   animation: spin 90s linear infinite;
 }

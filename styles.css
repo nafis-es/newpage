@@ -9,7 +9,7 @@ body::before {
     background-size: cover;
     background-repeat: no-repeat;
     transform: translate(-50%, -50%);
-    animation: spinBG 90s linear infinite;
+    animation: spin 90s linear infinite;
     z-index: -1;
 }
 @keyframes spin {

@@ -11,8 +11,10 @@ html, body {
   position: fixed;
   height: 2048px;
   width: 2048px;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  margin-top: -1024px;
+  margin-left: -1024px;
   z-index: -1;
   animation: spin 90s linear infinite;
 }

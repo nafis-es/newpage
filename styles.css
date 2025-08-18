@@ -2,20 +2,30 @@
     
 }
 .container {
-    
+    background: rgba(20, 20, 20, 0.5);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    position: relative;
+    padding: 20px;
 }
 .title {
-    font-size: 256px;
+    font-size: 90px;
     color: rgb(150, 190, 255);
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    backdrop-shadow: rgba(0, 0, 0, 0.4);
 }
 .string {
     font-size: 25px;
     color: white;
-    font-family:;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 256;
     text-align: center;
-    
+    backdrop-shadow: rgba(0, 0, 0, 0.4);
 }
 /*Background Image*/
 body::before {

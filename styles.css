@@ -1,22 +1,22 @@
 /*The UI*/ 
 #glass-card {
-    background: rgba(20, 20, 20, 0.5);
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 25px;
     backdrop-filter: blur(20px);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     min-height: calc(100vh - 60px);
     max-width: calc(100% - 60px);
-    margin: 30px;
+    margin: 20px;
     position: relative;
-    padding: 30px;
+    padding: 20px;
 }
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     align-items: center;
     margin-bottom: 50px;
@@ -44,6 +44,7 @@
 }
 .buttons {
     display:flex;
+    flex-direction: flex-start;
     gap: 15px;
 }
 .buttons button {

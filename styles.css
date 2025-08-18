@@ -1,7 +1,5 @@
+/*The UI*/ 
 #glass-card {
-    
-}
-.container {
     background: rgba(20, 20, 20, 0.5);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 25px;
@@ -9,6 +7,7 @@
     justify-content: center;
     align-items: center;
     height: 250px;
+    margin: 10px;
     position: relative;
     padding: 20px;
 }
@@ -17,7 +16,7 @@
     color: rgb(150, 190, 255);
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    backdrop-shadow: rgba(0, 0, 0, 0.4);
+    text-shadow: rgba(0, 0, 0, 0.4);
 }
 .string {
     font-size: 25px;
@@ -27,7 +26,7 @@
     text-align: center;
     backdrop-shadow: rgba(0, 0, 0, 0.4);
 }
-/*Background Image*/
+/*Background Image*/ 
 body::before {
     background-color: black;
     content: "";

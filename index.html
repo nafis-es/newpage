@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>NewPage - A journey</title>
-  <link rel="icon" type="image/png" href="resource/icon.png">
+  <title>NewPage - A Journey</title>
   <meta name="author" content="Nafis N.">
   <meta name="description" content="NewPage website">
   <meta charset="UTF-8">
-  <link rel="preload" as="image" href="resource/dark_background.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preload" as="image" href="resource/dark_background.png">
+  <link rel="icon" type="image/png" href="resource/icon.png">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@200&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <div id="bg"></div> <!--Background-->
-
-  <div id="glass-card"> <!--Glass Card-->
-    <div class="container">
-      <div class="title"><h1>NewPage</h1></div> <!--Title-->
-      <div class="string"><p>This is Nafis's little corner on the internet!</p></div>
-      <div class="images"> <!--Pictures-->
-        <img src="resource/" alt="1">
-        <img src="resource/" alt="2">
-        <img src="resource/" alt="3">
-       </div>
-      <div class="buttons"> <!--Theme toggle/Links-->
-        
+  <div id="bg"></div>
+  <div id="glass-card"> <!--Glass UI-->
+    <div class="header">
+      <h1 class=title>NewPage</h1> <!--Logo-->
+      <p class=string>This is Nafis's little corner on the internet!</p>
+    </div>
+    <div class="content"> <!--Stuff-->
+      <div class="images">
+        <img src="resource/pic1.png">
+        <img src="resource/pic1.png">
+        <img src="resource/pic1.png">
       </div>
+    </div>
+    <div class="buttons"> <!--Toggle, Links, and More-->
+      <button class="theme">Switch</button>
+      <button class="channel">Visit</button>
+      <button class="settings">OpenSettings</button>
     </div>
   </div>
 </body>

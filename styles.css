@@ -83,8 +83,8 @@
     background-color: black;
     content: "";
     position: fixed;
-    top:  0;
-    left: 0;
+    top: 50%;
+    left: 50%;
     width: 2048px;
     height: 2048px;
     background-image: url('resource/dark_background.png');

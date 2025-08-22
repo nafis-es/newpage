@@ -30,7 +30,7 @@
     flex-direction: column;
     color: white;
     text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
-    font-size: 50px;
+    font-size: clamp(25px, 5vh, 50px);
     font-family: 'Poppins', sans-serif;
     width: 100%;
     text-align: center;
@@ -39,7 +39,7 @@
 .header p {
     color: white;
     text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
-    font-size: 25px;
+    font-size: clamp(12px, 3vh, 25px);
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     width: 100%;
